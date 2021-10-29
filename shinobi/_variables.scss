@@ -21,6 +21,11 @@ $colors: (
   "white": white,
 );
 
+$font-sizes: (
+  "first": 25px,
+  "second": 10rem,
+);
+
 // @debug map-get($colors, "purple");
 // @debug map-has-key($colors, "secondary");
 // @debug map-has-key($colors, "tertionary");
@@ -31,7 +36,6 @@ $colors: (
 //     "pink": red,
 //   )
 // );
-
 .test-btn {
   background-color: map-get($colors, "purple");
 }
